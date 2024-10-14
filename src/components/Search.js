@@ -23,7 +23,7 @@ const Search = ({
 
   const searchMovies = async () => {
     try {
-      const apiKey = "41d7f21e"; // Your actual OMDB API key
+      const apiKey = "41d7f21e"; 
       const response = await axios.get(
         `http://www.omdbapi.com/?s=${query}&apikey=${apiKey}`
       );
